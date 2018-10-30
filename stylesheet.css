@@ -1,7 +1,42 @@
-.head {
+* {
+    margin: 0;
+  }
+  
+  .nav {
     display: flex;
+    background-color: lightgrey;
+    flex-wrap: wrap;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .social {
+      display:flex;
+      flex-wrap: wrap;
+      width: 300px;
+      flex-direction: column;
+  }
+
+  .sociallinks {
+      display: flex;
+      justify-content: flex-end;
+  }
+  
+.icons {
+    
 }
 
-.img {
-
-}
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 70px;
+    padding-right: 50px;
+    width: 300px;
+    align-items: center;
+  }
+  
+  
+  h6 {
+    padding-right: 50px;
+  }
