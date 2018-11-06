@@ -1,10 +1,16 @@
 * {
     margin: 0;
+    background-image: url('https://github.com/zachmeicho/Project-2/blob/master/assets/az_subtle.png?raw=true');
   }
   
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+
   .nav {
     display: flex;
-    background-color: lightgrey;
+    background-image: url('https://github.com/zachmeicho/Project-2/blob/master/assets/az_subtle.png?raw=true');
     flex-wrap: wrap;
     height: 100px;
     justify-content: space-between;
@@ -24,7 +30,9 @@
   }
   
 .icons {
-    
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 50px;
 }
 
   .navbar {
@@ -40,3 +48,14 @@
   h6 {
     padding-right: 50px;
   }
+
+  .feature {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+
+  
+
