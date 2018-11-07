@@ -14,7 +14,7 @@
     }
   
   .wrapper {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
   }
 
@@ -34,6 +34,16 @@
       flex-direction: column;
   }
 
+.size {
+  height: 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.spaceright {
+  margin-right: 5px;
+}
+
   .sociallinks {
       display: flex;
       justify-content: flex-end;
@@ -43,6 +53,15 @@
     display:flex;
     justify-content: flex-end;
     margin-right: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: grey;
 }
 
   .navbar {
@@ -63,12 +82,13 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
   }
 
   .featurebanner {
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 80px;
+    margin-bottom: 50px;
   }
   
   .gallerysection {
@@ -134,7 +154,7 @@
     background-blend-mode: multiply;
     margin: 0;
     padding: 15px 0px;
-    
+    color: white;
   }
   
   
@@ -151,7 +171,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
-    width: 25%;
+    width: 20%;
     margin: 4%;
     background-image: url('https://github.com/zachmeicho/Project-2/blob/master/assets/az_subtle.png?raw=true');
     background-color: lightgrey;
@@ -193,6 +213,14 @@
     background-blend-mode: multiply;
   }
 
+  .darkgreybackground {
+    background-image: url('https://github.com/zachmeicho/Project-2/blob/master/assets/az_subtle.png?raw=true');
+    background-color: grey;
+    background-blend-mode: multiply;
+    height: 20px;
+    padding-right: 15px;
+  }
+
   .footernavbar {
     margin-left: 50px;
     display: flex;
@@ -205,4 +233,12 @@
 
   .footerspace {
     margin: 10px 10px;
+  }
+
+  .white {
+    color:white;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: grey;
   }
