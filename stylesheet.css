@@ -71,9 +71,65 @@
     width: 100%;
   }
 
-  h4 {
+  .navcenter {
     text-align: center;
     margin: 20px;
   }
   
-
+  .footerbanner {
+    text-align: center;
+    background-image: url('https://github.com/zachmeicho/Project-2/blob/master/assets/az_subtle.png?raw=true');
+    background-color: grey;
+    background-blend-mode: multiply;
+    margin: 0;
+    padding: 15px 0px;
+    
+  }
+  
+  
+  footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-image: url('https://github.com/zachmeicho/Project-2/blob/master/assets/az_subtle.png?raw=true');
+    background-color: lightgrey;
+    background-blend-mode: multiply;
+  }
+  
+  .footerthirds {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    width: 25%;
+    margin: 4%;
+    background-color: grey;
+  }
+  
+  .footergallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  .navbar {
+      display: flex;
+      justify-content: space-around;
+      padding-left: 0px;
+      padding-right: 0px;
+      width: 300px;
+      align-items: center;
+    }
+  
+  .search {
+    font-size: 1.2em;
+    color: grey;
+    height: 30px;
+    width: 300px;
+    padding-top: 7px;
+    padding-left: 20px;
+    background-color: white;
+  }
+  
+  .width {
+    width: 500px;
+  }
