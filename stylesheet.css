@@ -1,7 +1,17 @@
 * {
     margin: 0;
     background-image: url('https://github.com/zachmeicho/Project-2/blob/master/assets/az_subtle.png?raw=true');
+    font-family: 'Museo', serif;
   }
+
+  @font-face {
+    font-family: 'Museo';
+    src: url("assets/fonts/museo/museo-300-webfont.eot");
+    src: 
+    url("assets/museo/museo-300-webfont.woff") format("woff"),
+    url("assets/museo/museo-300-webfont.ttf") format("truetype"),
+    url("assets/museo/museo-300-webfont.svg#filename") format("svg");
+    }
   
   .wrapper {
     width: 90%;
@@ -40,10 +50,9 @@
     justify-content: space-around;
     padding-left: 70px;
     padding-right: 50px;
-    width: 300px;
+    width: 500px;
     align-items: center;
   }
-  
   
   h6 {
     padding-right: 50px;
@@ -54,6 +63,12 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .featurebanner {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
   }
   
   .gallerysection {
@@ -74,6 +89,42 @@
   .navcenter {
     text-align: center;
     margin: 20px;
+  }
+  
+  .gallerysection {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  .galleryimg {
+    width: 100%;
+  }
+  
+  .gallery {
+    width: 20%;
+    margin: 2%;
+  }
+
+  .button {
+    background-image: url('https://github.com/zachmeicho/Project-2/blob/master/assets/az_subtle.png?raw=true');
+    background-color: lightgrey;
+    background-blend-mode: multiply;
+    padding: 10px 60px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+  }
+  
+  .button:hover {
+    color: black;
+  }
+
+  .centerbutton {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:40px;
   }
   
   .footerbanner {
@@ -102,7 +153,9 @@
     justify-content: flex-start;
     width: 25%;
     margin: 4%;
-    background-color: grey;
+    background-image: url('https://github.com/zachmeicho/Project-2/blob/master/assets/az_subtle.png?raw=true');
+    background-color: lightgrey;
+    background-blend-mode: multiply;
   }
   
   .footergallery {
@@ -124,7 +177,7 @@
     font-size: 1.2em;
     color: grey;
     height: 30px;
-    width: 300px;
+    width: 250px;
     padding-top: 7px;
     padding-left: 20px;
     background-color: white;
@@ -132,4 +185,24 @@
   
   .width {
     width: 500px;
+  }
+
+  .greybackground {
+    background-image: url('https://github.com/zachmeicho/Project-2/blob/master/assets/az_subtle.png?raw=true');
+    background-color: lightgrey;
+    background-blend-mode: multiply;
+  }
+
+  .footernavbar {
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 210px;
+    align-items: center;
+  }
+
+  .footerspace {
+    margin: 10px 10px;
   }
