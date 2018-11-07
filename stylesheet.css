@@ -83,6 +83,25 @@ a:visited {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+    border: 10px solid white;
+  }
+
+  .positionrelative {
+    position: relative;
+  }
+
+  .positionabsolute1 {
+    position: absolute;
+    height: 60px;
+    top: 260px;
+    right: 890px;
+  }
+
+  .positionabsolute2 {
+    position: absolute;
+    height: 60px;
+    left: 890px;
+    top: 260px;
   }
 
   .featurebanner {
