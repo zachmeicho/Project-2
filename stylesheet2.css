@@ -246,6 +246,19 @@ a:visited {
     width: 500px;
   }
 
+.floatright {
+    float: right;
+    width: 300px;
+    text-align: right;
+    padding: 10px;
+}
+
+head {
+    padding: 10px;
+}
+
+
+
   .greybackground {
     background-image: url('https://github.com/zachmeicho/Project-2/blob/master/assets/az_subtle.png?raw=true');
     background-color: lightgrey;
@@ -278,6 +291,6 @@ a:visited {
     color:white;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4, h5, h6, p {
     color: grey;
   }
