@@ -342,4 +342,5 @@ head {
   .one {
     width: 100px;
     height: 100%;
+    padding-top: 20px;
   }
