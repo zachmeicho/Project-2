@@ -294,3 +294,52 @@ head {
   h1, h2, h3, h4, h5, h6, p {
     color: grey;
   }
+
+  .whole {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
+  }
+  
+  .halfs {
+    width: 38%;
+    margin: 2%;
+    background-color: white;
+    border: 10px solid white;
+  }
+  
+  .smaller {
+    width: 100%
+  }
+  
+  .mini3 {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  
+  .bio {
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .textalign {
+    text-align: right;
+  }
+  
+  .smallest {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .colorwhite {
+    background-color: white;
+  }
+
+  .one {
+    width: 100px;
+    height: 100%;
+  }
